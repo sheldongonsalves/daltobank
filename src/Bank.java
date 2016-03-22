@@ -28,11 +28,13 @@ public class Bank {
 	}
 
 	public int getTransactionID() {
-		return transactionID;
+		//System.out.println(	"getter print:"+this.transactionID);
+		return this.transactionID;
 	}
 
 	public void setTransactionID(int transactionID) {
 		this.transactionID = transactionID;
+		//System.out.println(	"print:"+this.transactionID);
 	}
 
 	public Bank() {
